@@ -30,8 +30,8 @@ function draw(){
         circle(leftWristX,leftWristY,20);
         song1.stop();
         if(peterpan == false){
-            song2.play();
             song1.stop();
+            song2.play();
             console.log("Song Name: Peter Pan Theme Song");
             document.getElementById("name").innerHTML = "Song Name: Peter Pan Theme Song";
         }
